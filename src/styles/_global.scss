@@ -1,0 +1,23 @@
+$primaryColor: darkcyan;
+$secondaryColor: red;
+
+html {
+    font-family: PromptRegular;
+}
+
+h1 {
+    color: $primaryColor;
+}
+
+.container {
+    p {
+        color: $secondaryColor;
+    }
+
+    background: url('../img//foto-1.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
