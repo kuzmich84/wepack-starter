@@ -1,23 +1,23 @@
-$primaryColor: darkcyan;
-$secondaryColor: red;
+$primaryColor: #008a8a;
+$secondaryColor: #ff0000;
 
 html {
-    font-family: PromptRegular;
+  font-family: "PromptRegular", "Arial", sans-serif;
 }
 
 h1 {
-    color: $primaryColor;
+  color: $primaryColor;
 }
 
 .container {
-    p {
-        color: $secondaryColor;
-    }
+  p {
+    color: $secondaryColor;
+  }
 
-    background: url('../img//foto-1.jpg');
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: auto;
+  background: url("../img//foto-1.jpg?as=webp");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
 }
